@@ -1,6 +1,6 @@
 package structural.bridge;
 
-public class HatCharacteristics implements ClothesCharacteristics {
+public class CharacteristicsForUlan implements ClothesCharacteristics {
     private int size = 58;
     private String color = "Black";
 
@@ -16,7 +16,7 @@ public class HatCharacteristics implements ClothesCharacteristics {
 
     @Override
     public String toString() {
-        return "HatCharacteristics{" +
+        return "CharacteristicsForUlan{" +
                 "size=" + size +
                 ", color='" + color + '\'' +
                 '}';

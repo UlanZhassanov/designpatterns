@@ -2,7 +2,7 @@ package structural.bridge;
 
 public class ClothesProgram {
     public static void main(String[] args) {
-        Clothes clothes = new Hat(new HatCharacteristics());
+        Clothes clothes = new Hat(new CharacteristicsForUlan());
 
         //just for calling with methods
         System.out.println(clothes.getSeason());
